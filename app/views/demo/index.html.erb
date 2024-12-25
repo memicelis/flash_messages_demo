@@ -1,0 +1,13 @@
+<div class="container mx-auto px-4 py-8">
+  <h1 class="text-2xl font-bold mb-4">Flash Messages Demo</h1>
+  
+  <div class="flex flex-col space-y-4">
+    <%= button_to "Show Success Message",
+                  demo_notice_path,
+                  class: "bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded" %>
+    
+    <%= button_to "Show Warning Message",
+                  demo_alert_path,
+                  class: "bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-2 rounded" %>
+  </div>
+</div>
